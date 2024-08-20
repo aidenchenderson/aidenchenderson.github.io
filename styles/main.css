@@ -23,7 +23,7 @@ a, a:visited {
 
 .LogoContainer {
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     width: 206px;
     min-width: 206px;
     height: 83px;
@@ -36,7 +36,7 @@ a, a:visited {
     object-fit: contain;
 }
 
-.JobExperienceButton, .SkillsButton {
+.JobExperienceLink, .SkillsLink {
     display: inline-flex;
     align-items: flex-end;
     color:white;
@@ -45,8 +45,10 @@ a, a:visited {
     margin-top: 38px;
     height: 46px;
     white-space: nowrap;
+    margin-right: 20px;
+    margin-left: 10px;
 }
-.JobExperienceButton:hover, .SkillsButton:hover {
+.JobExperienceLink:hover, .SkillsLink:hover {
     cursor: pointer;
     text-decoration: underline;
 }
