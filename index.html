@@ -10,7 +10,9 @@
     <!-- tab title -->
     <title>Aiden Henderson</title>
     <!-- element styles -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/overlay.css">
     <!-- poppins font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +47,13 @@
 
     <!-- initial display -->
     <div class="Overlay">
-      text
+      <div class="OverlayTextContainer">
+        <p class="OverlayText">It's dark in here...</p>
+        <p class="OverlayText">Try clicking that moon to brighten things up!</p>
+      </div>
+      <div class="OverlayButtonContainer">
+        <button id="MoonButton"></button>
+      </div>
     </div>
 
     <!-- hidden content that will become visible -->

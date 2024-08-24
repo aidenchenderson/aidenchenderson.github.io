@@ -1,0 +1,29 @@
+/* inital screen that the user will see */
+.Overlay {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: white;
+    background-color: black;
+    align-items: center;
+    margin-top: 80px;
+}
+.OverlayText {
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    white-space: nowrap;
+}
+#MoonButton {
+    margin-top: 40px;
+    background-image: url(../images/MoonImage.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: white;
+}
