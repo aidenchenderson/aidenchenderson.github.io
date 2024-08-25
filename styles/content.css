@@ -1,0 +1,16 @@
+/* hide the content initially */
+.MainContent {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease, visibility ease 1s;
+    flex: 0;
+}
+/* new transition */
+.MainContent.show {
+    display: flex;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.ContentText {
+    transition: opacity 1s ease;
+}
