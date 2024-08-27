@@ -2,14 +2,18 @@
 .MainContent {
     display: none;
     opacity: 0;
-    transition: opacity 1s ease, visibility ease 1s;
+    transition: opacity 1s ease;
     flex: 0;
+    align-items: center;
 }
 /* new transition */
 .MainContent.show {
     display: flex;
+    flex-direction: column;
+    flex: 1;
     opacity: 1;
-    transition: opacity 1s ease;
+    margin-top: 200px;
+    align-items: center;
 }
 .ContentText {
     transition: opacity 1s ease;
