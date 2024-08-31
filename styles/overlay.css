@@ -14,7 +14,7 @@
 .OverlayText {
     align-items: center;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 26px;
     margin: 0px 0px 0px 0px;
     text-align: center;
     white-space: nowrap;
@@ -29,11 +29,12 @@
     border-width: 2px;
     border-radius: 50%;
     border-color: white;
-    transition: box-shadow ease 0.3s, margin-top ease 0s;
+    transition: box-shadow ease 0.3s, margin-top ease 0.1s;
     box-shadow: none;
 }
 #MoonButton:hover {
     box-shadow: 0px 8px 6px rgb(0, 0, 0), 0px 12px 10px rgb(255, 255, 255);
+    margin-top: 36px;
 }
 #MoonButton:active {
     margin-top: 52px;

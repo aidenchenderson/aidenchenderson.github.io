@@ -12,9 +12,16 @@
     flex-direction: column;
     flex: 1;
     opacity: 1;
-    margin-top: 200px;
+    margin-top: 0px;
     align-items: center;
+    background: linear-gradient(to bottom, #000c9067, rgb(0, 0, 0))
+}
+.ContentTextContainer {
+    margin: 0px;
 }
 .ContentText {
+    font-size: 22px;
     transition: opacity 1s ease;
+    margin-top: 50px;
+    text-align: center;
 }
