@@ -2,10 +2,11 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     // change the website logo when the user hovers over
     const logoImage = document.getElementById('logoImage');
-    logoImage.addEventListener('mouseover', () => {
+
+    logoImage.addEventListener('mouseenter', () => {
         logoImage.src = 'images/WebsiteLogo2.png';
     });
-    logoImage.addEventListener('mouseout', () => {
+    logoImage.addEventListener('mouseleave', () => {
         logoImage.src = 'images/WebsiteLogo.png';
     });
 

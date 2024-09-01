@@ -14,3 +14,6 @@ a, a:visited {
 button {
     cursor: pointer;
 }
+.PageNavigatorAnchor, .SocialsNavigatorAnchor {
+    margin: 0px;
+}

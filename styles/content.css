@@ -14,14 +14,46 @@
     opacity: 1;
     margin-top: 0px;
     align-items: center;
-    background: linear-gradient(to bottom, #000c9067, rgb(0, 0, 0))
+    background: linear-gradient(to bottom, #00549067, rgb(0, 0, 0));
 }
 .ContentTextContainer {
     margin: 0px;
 }
 .ContentText {
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 25px;
     transition: opacity 1s ease;
     margin-top: 50px;
     text-align: center;
+}
+.PageDisplayContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 65px;
+}
+.WorkExperienceThumbnailContainer, 
+.SkillsThumbnailContainer, 
+.ProjectsThumbnailContainer{
+    background-color: black;
+    margin: 10px 10px 0px 10px;
+    width: 360px;
+    height: 220px;
+    border-color: white;
+    border-width: 10px;
+    border: solid;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+.WorkExperienceThumbnailContainer:hover, 
+.SkillsThumbnailContainer:hover, 
+.ProjectsThumbnailContainer:hover{
+    transform: translateY(-7px);
+    box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.555);
 }

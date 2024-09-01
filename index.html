@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/overlay.css">
     <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/socials.css">
     <!-- poppins font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +30,7 @@
     <div class="header">
       <!-- website logo -->
       <div class="LogoContainer">
-        <a class="HeaderLinkContainer" href="index.html">
+        <a class="HeaderLinkContainer">
           <img id="logoImage" class="LogoImage" src="images/WebsiteLogo.png" alt="Aiden C Henderson">
         </a>
       </div>
@@ -60,24 +61,54 @@
 
     <!-- hidden content that will become visible -->
     <div class="MainContent">
-       <div class="ContentTextContainer">
+      <!--about me text -->
+      <div class="ContentTextContainer">
         <p class="ContentText">
           Thanks for checking out my website! 
           <br>
           I am an Honours Computer Science student 
-          with a passion for all things
-          computer graphics and web development.
+          with a passion for <br> all things
+          AI, computer graphics, and web development.
           <br>
           Outside of my academic pursuits, you can find
-          me playing guitar and piano or
-          pumping iron at the gym.
+          me playing <br> guitar and piano or
+          working out at the gym.
+          <br>
           <!-- <br>
           Check out my job experience, skills, and projects 
           to learn more about me! -->
         </p>
-       </div>
+      </div>
+      <!-- small display rectangles of pages -->
+      <div class="PageDisplayContainer">
+        <a class="PageNavigatorAnchor">
+          <div class="WorkExperienceThumbnailContainer">
+            
+          </div>
+        </a>
+        <a class="PageNavigatorAnchor">
+          <div class="SkillsThumbnailContainer">
+          
+          </div>
+        </a>
+        <a class="PageNavigatorAnchor">
+          <div class="ProjectsThumbnailContainer">
+
+          </div>
+        </a>
+      </div>  
     </div>
 
+    <!-- container for links at the bottom -->
+    <div class="SocialsContainer">
+      <!-- github image and link -->
+      <a class="SocialsNavigatorAnchor" target="_blank" href="https://github.com/aidenchenderson">
+        <img class="GithubLogo" src="images/GithubLink.png">
+        <p class="GithubName">
+          aidenchenderson
+        </p>
+      </a>
+    </div>
     <!-- interactive with javascript -->
     <script src="scripts/main.js"></script>
   </body>
