@@ -7,7 +7,7 @@
     align-items: center;
     margin-top: 80px;
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease-out;
     position: static;
     z-index: 10;
 }
@@ -18,6 +18,7 @@
     margin: 0px 0px 0px 0px;
     text-align: center;
     white-space: nowrap;
+    text-wrap: wrap;
 }
 #MoonButton {
     margin-top: 40px;
@@ -43,5 +44,5 @@
 }
 .Overlay.hide {
     opacity: 0;
-    transition: opacity 1s ease;
+    transition: opacity 0.5s ease-out;
 }

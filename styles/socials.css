@@ -1,19 +1,31 @@
+/* For social media links that 
+appear at the bottom of the page */
 .SocialsContainer,
 .SocialsNavigatorAnchor {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: transform 0.3s ease;
 }
 .SocialsContainer {
     margin-bottom: 50px;
+    margin-top: 10px;
 }
-.GithubLogo {
+.SocialsNavigatorAnchor:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.SocialsLogo {
     height: 30px;
     width: 30px;
     margin-right: 5px;
 }
-.GithubName {
+.SocialsName {
     font-size: 20px;
+    margin-right: 30px;
+    text-wrap: nowrap;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }

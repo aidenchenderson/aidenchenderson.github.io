@@ -2,7 +2,7 @@
 .MainContent {
     display: none;
     opacity: 0;
-    transition: opacity 1s ease;
+    transition: opacity 1s ease-in;
     flex: 0;
     align-items: center;
 }
@@ -36,6 +36,8 @@
 .WorkExperienceThumbnailContainer, 
 .SkillsThumbnailContainer, 
 .ProjectsThumbnailContainer{
+    display: flex;
+    flex-direction: column;
     background-color: black;
     margin: 10px 10px 0px 10px;
     width: 360px;
@@ -56,4 +58,11 @@
 .ProjectsThumbnailContainer:hover{
     transform: translateY(-7px);
     box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.555);
+    cursor: pointer;
+}
+#WorkExperienceText, #SkillsText, #ProjectText {
+    margin-top: 0px;
+    border-bottom: solid;
+    border-bottom-width: 3px;
+    border-color: white;
 }

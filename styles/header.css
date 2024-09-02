@@ -6,6 +6,7 @@
     padding: 0px 0px 2px 0px;
     box-sizing: border-box;
     border-bottom: 2px solid white;
+    flex-wrap: wrap;
 }
 .LogoContainer {
     margin-left: 10px;
@@ -21,7 +22,10 @@
     height: 100%;
     object-fit: contain;
 }
-.JobExperienceLink, .SkillsLink {
+.LogoImage:hover {
+    cursor:pointer;
+}
+.JobExperienceLink, .SkillsLink, .ProjectsLink {
     display: inline-flex;
     align-items: flex-end;
     color:white;
@@ -33,7 +37,7 @@
     margin-right: 20px;
     margin-left: 10px;
 }
-.JobExperienceLink:hover, .SkillsLink:hover {
+.JobExperienceLink:hover, .SkillsLink:hover, .ProjectsLink:hover {
     cursor: pointer;
     text-decoration: underline;
 }
