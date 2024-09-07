@@ -35,7 +35,7 @@
         </a>
       </div>
       <!-- header button to redirect to job experience link -->
-      <div class="JobExperienceLink"> <!-- ADD HREF TO PROPER PAGE -->
+      <div class="JobExperienceLink" id="JobExperienceLinkID"> <!-- ADD HREF TO PROPER PAGE -->
         <a>
           Work Experience
         </a>
@@ -72,12 +72,13 @@
           Thanks for checking out my website! 
           <br>
           I am an Honours Computer Science student 
-          with a passion for <br> all things
-          AI, computer graphics, and web development.
+          with a passion for 
+          <br> 
+          all things AI, computer graphics, and web development.
           <br>
-          Outside of my academic pursuits, you can find
-          me playing <br> guitar and piano or
-          working out at the gym.
+          Outside of my academic pursuits, you can find me playing 
+          <br> 
+          guitar and piano or working out at the gym.
           <br>
           <!-- <br>
           Check out my job experience, skills, and projects 
@@ -88,10 +89,14 @@
       <div class="PageDisplayContainer">
         <!-- work experience thumbnail -->
         <a class="PageNavigatorAnchor">
-          <div class="WorkExperienceThumbnailContainer">
+          <div class="WorkExperienceThumbnailContainer" id="WorkExperienceThumbnailContainerID">
             <p class="ContentText" id="WorkExperienceText">
               Work Experience
             </p>
+            <div class="ImageContainer">
+              <img src="images/CompLogo1.png" class="CompanyLogo" alt="Company Logo">
+              <img src="images/CompLogo2.png" class="CompanyLogo" alt="Company Logo 2">
+            </div>
           </div>
         </a>
         <!-- skills thumbnail -->
@@ -113,16 +118,23 @@
       </div>  
     </div>
 
-    <!-- container for links at the bottom -->
+    <!-- hidden work experience page that becomes visible -->
+    <div class="WorkExperienceContent">
+      <div class="testing-brick">
+        tew
+      </div>
+    </div>
+
+    <!-- footer container for links at the bottom -->
     <div class="SocialsContainer">
       <!-- github image and link -->
       <a class="SocialsNavigatorAnchor" target="_blank" href="https://github.com/aidenchenderson">
-        <img class="SocialsLogo" src="images/GithubLink.png">
+        <img class="SocialsLogo" src="images/GithubLink.png" alt="Github Logo">
         <p class="SocialsName">
           aidenchenderson
         </p>
       </a>
-      <a class="SocialsNavigatorAnchor" target="_blank" href="https://www.linkedin.com/in/aidenchenderson/">
+      <a class="SocialsNavigatorAnchor" target="_blank" href="https://www.linkedin.com/in/aidenchenderson/" alt="LinkedIn Logo">
         <img class="SocialsLogo" src="images/LinkedInLogo.png">
         <p class="SocialsName">
           in/aidenchenderson/

@@ -1,0 +1,19 @@
+/* hide content initially */
+.WorkExperienceContent {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in;
+    flex: 0;
+    align-items: center;
+}
+/* new transition */
+.WorkExperienceContent.show {
+    display: flex;
+    flex-direction: column;
+    visibility: visible;
+    flex: 1;
+    opacity: 1;
+    margin-top: 0px;
+    align-items: center;
+}
