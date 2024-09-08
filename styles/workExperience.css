@@ -2,7 +2,6 @@
 .WorkExperienceContent {
     display: none;
     opacity: 0;
-    visibility: hidden;
     transition: opacity 1s ease-in;
     flex: 0;
     align-items: center;
@@ -11,9 +10,18 @@
 .WorkExperienceContent.show {
     display: flex;
     flex-direction: column;
-    visibility: visible;
     flex: 1;
     opacity: 1;
     margin-top: 0px;
     align-items: center;
+    background: linear-gradient(to bottom, #90620067, rgb(0, 0, 0));
+}
+.WorkExperienceContent.hide {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+.testing-brick {
+    flex: 1;
+    background-color: aqua;
 }
