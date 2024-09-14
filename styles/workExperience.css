@@ -14,14 +14,85 @@
     opacity: 1;
     margin-top: 0px;
     align-items: center;
-    background: linear-gradient(to bottom, #90620067, rgb(0, 0, 0));
+    background: linear-gradient(to bottom, #00549067, rgb(0, 0, 0));
 }
 .WorkExperienceContent.hide {
     display: none;
     opacity: 0;
     transition: opacity 0.5s ease-out;
 }
-.testing-brick {
-    flex: 1;
-    background-color: aqua;
+.JobContainer {
+    display: flex;
+    flex-direction: column;
+    width: 715px;
+    height: 299px;
+    margin: 20px 0px 20px 0px;
+    background-color: black;
+    border: solid;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    position: relative;
+}
+#DITContainer {
+    margin-top: 50px;
+    margin-right: 250px;
+}
+#OPGContainer {
+    margin-left: 250px;
+}
+.ExperienceTitleAndDate {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.ExperienceTitleAndDate p {
+    margin: 0px;
+}
+.ExperienceParagraphAndImage {
+    display: flex;
+    flex-direction: row;
+    
+}
+.ExperienceParagraph{
+    border-color: white;
+    border-right: solid;
+    display: flex;
+    align-items: center;
+}
+.ExperienceParagraph p {
+    margin: 13px 13px 5px 26px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    width: 455px;
+    height: 240px;
+    text-wrap: wrap;
+}
+.ExperienceImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+.ExperienceImage img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+/* Shrink for smaller screens */
+@media (max-width: 720px){
+    #OPGContainer, #DITContainer {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        scale: 0.7;
+    }
 }

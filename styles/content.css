@@ -60,6 +60,13 @@
     box-shadow: 4px 4px 2px rgba(255, 255, 255, 0.555);
     cursor: pointer;
 }
+.WorkExperienceThumbnailContainer:active,
+.SkillsThumbnailContainer:active,
+.ProjectsThumbnailContainer:active {
+    transform: translateY(7px);
+    box-shadow: none;
+    transition: transform 0.05s ease, box-shadow 0s ease;
+}
 #WorkExperienceText, #SkillsText, #ProjectText {
     margin-top: 0px;
     border-bottom: solid;
