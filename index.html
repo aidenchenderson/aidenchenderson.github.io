@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/socials.css">
     <link rel="stylesheet" href="styles/workExperience.css">
+    <link rel="stylesheet" href="styles/skills.css">
     <!-- poppins font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +42,7 @@
           Work Experience
         </a>
       </div>
-      <div class="SkillsLink"> <!-- ADD HREF TO PROPER PAGE -->
+      <div class="SkillsLink" id="SkillsLinkID"> <!-- ADD HREF TO PROPER PAGE -->
         <a>
           Skills
         </a>
@@ -52,7 +53,6 @@
         </a>
       </div>
     </div>
-
     <!-- initial display -->
     <div class="Overlay">
       <div class="OverlayTextContainer">
@@ -99,10 +99,15 @@
         </a>
         <!-- skills thumbnail -->
         <a class="PageNavigatorAnchor">
-          <div class="SkillsThumbnailContainer">
+          <div class="SkillsThumbnailContainer" id="SkillsThumbnailContainer">
             <p class="ContentText" id="SkillsText">
               Skills
             </p>
+            <div class="ImageContainer">
+              <img src="images/skillsImages/CPPLogo.png" class="CompanyLogo" alt="C++ Logo">
+              <img src="images/skillsImages/BashLogo.png" class="CompanyLogo" alt="Bash Logo">
+              <img src="images/skillsImages/FedoraLogo.png" class="CompanyLogo" alt="Linux Logo">
+            </div>
           </div>
         </a>
         <!-- projects thumbnail -->
@@ -113,7 +118,10 @@
             </p>
           </div>
         </a>
-      </div>  
+      </div>
+      <p class="ContentText" id="ManyMore">
+        click to see more!
+      </p>  
     </div>
 
     <!-- hidden work experience page that becomes visible -->
@@ -137,8 +145,8 @@
               <u style="font-weight: bold;
               text-decoration: none;">Notable Work:</u> 
               <br>
-              Helped clients improve their website SEO score by web scraping data. 
-              Involved in upgrading the front-end and launching a client's website
+              Helped clients improve their website SEO score by web scraping data from
+              companies with similar products. Involved in upgrading the front-end and launching a client's website
               for commercial use. 
             </p>
           </div>
@@ -177,6 +185,11 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- hidden skills page that becomes visible -->
+    <div class="SkillsContent">
+      <!-- I am also currently working on learning React.js through school clubs, and OpenGL in my free time! -->
     </div>
 
     <!-- footer container for links at the bottom -->

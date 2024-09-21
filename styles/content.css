@@ -91,3 +91,7 @@
     display: none;
     transition: opacity 0.5s ease-out;
 }
+#ManyMore {
+    margin-top: 0px;
+    font-size: 18px;
+}
