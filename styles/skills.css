@@ -19,3 +19,48 @@
     align-items: center;
     background: linear-gradient(to bottom, #00549067, rgb(0, 0, 0));
 }
+.FiveSkills {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.Skill {
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 180px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+    border: solid;
+    border-width: 2px;
+}
+.SkillText {
+    font-weight: 500;
+    font-size: 25px;
+    transition: opacity 1s ease;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.SkillImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+#DISCLAIMER {
+    margin-top: 30px;
+    text-wrap: wrap;
+}
+@media (max-width: 720px){
+    .FiveSkills {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        scale: 0.7;
+        flex-wrap: wrap;
+    }
+}

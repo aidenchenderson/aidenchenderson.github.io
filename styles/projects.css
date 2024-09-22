@@ -1,0 +1,21 @@
+.ProjectsContent {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    flex: 0;
+    align-items: center;
+}
+.ProjectsContent.hide {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.5s ease-out;
+}
+.ProjectsContent.show{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    opacity: 1;
+    margin-top: 0px;
+    align-items: center;
+    background: linear-gradient(to bottom, #00549067, rgb(0, 0, 0));
+}
