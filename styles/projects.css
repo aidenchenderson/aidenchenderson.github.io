@@ -19,3 +19,19 @@
     align-items: center;
     background: linear-gradient(to bottom, #00549067, rgb(0, 0, 0));
 }
+#MacAI {
+    margin-left: 250px;
+}
+#GDSC {
+    margin-top: 50px;
+    margin-right: 250px;
+}
+@media (max-width: 720px){
+    #MacAI, #GDSC {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        scale: 0.7;
+    }
+}
