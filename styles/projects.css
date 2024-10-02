@@ -1,3 +1,4 @@
+/* initially hide the projects */
 .ProjectsContent {
     display: none;
     opacity: 0;
@@ -5,11 +6,13 @@
     flex: 0;
     align-items: center;
 }
+/* if the screen is switched, we hide the projects again */
 .ProjectsContent.hide {
     opacity: 0;
     display: none;
     transition: opacity 0.5s ease-out;
 }
+/* if we nav to this page show the content */
 .ProjectsContent.show{
     display: flex;
     flex-direction: column;
@@ -19,13 +22,16 @@
     align-items: center;
     background: linear-gradient(to bottom, #00549067, rgb(0, 0, 0));
 }
+/* mac ai container offset */
 #MacAI {
     margin-left: 250px;
 }
+/* Google Developers Student Club offset */
 #GDSC {
     margin-top: 50px;
     margin-right: 250px;
 }
+/* if the user scales the webpage, scale the elements and center them */
 @media (max-width: 720px){
     #MacAI, #GDSC {
         margin-left: 0px;

@@ -6,7 +6,7 @@
     flex: 0;
     align-items: center;
 }
-/* new transition */
+/* show the page if the user navigates to it */
 .WorkExperienceContent.show {
     display: flex;
     flex-direction: column;
@@ -16,11 +16,13 @@
     align-items: center;
     background: linear-gradient(to bottom, #00549067, rgb(0, 0, 0));
 }
+/* if the user navigates away, hide the page */
 .WorkExperienceContent.hide {
     display: none;
     opacity: 0;
     transition: opacity 0.5s ease-out;
 }
+/* display my work experience */
 .JobContainer {
     display: flex;
     flex-direction: column;

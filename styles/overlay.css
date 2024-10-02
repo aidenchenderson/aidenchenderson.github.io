@@ -11,6 +11,7 @@
     position: static;
     z-index: 10;
 }
+/* style the text on the initial screen */
 .OverlayText {
     align-items: center;
     font-weight: 500;
@@ -20,6 +21,7 @@
     white-space: nowrap;
     text-wrap: wrap;
 }
+/* design the moon button */
 #MoonButton {
     margin-top: 40px;
     background-image: url(../images/MoonImage.png);

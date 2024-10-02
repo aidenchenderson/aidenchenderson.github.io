@@ -6,7 +6,7 @@
     flex: 0;
     align-items: center;
 }
-/* new transition */
+/* transition to show the home screen */
 .MainContent.show {
     display: flex;
     flex-direction: column;
@@ -16,9 +16,11 @@
     align-items: center;
     background: linear-gradient(to bottom, #00549067, rgb(0, 0, 0));
 }
+/* no margin for content text */
 .ContentTextContainer {
     margin: 0px;
 }
+/* make all content within the website have a standardized font, weight, etc */
 .ContentText {
     font-weight: 500;
     font-size: 25px;
@@ -26,6 +28,7 @@
     margin-top: 50px;
     text-align: center;
 }
+/* three thumbnails in a row */
 .PageDisplayContainer {
     display: flex;
     flex-direction: row;
@@ -33,6 +36,7 @@
     justify-content: center;
     margin-top: 65px;
 }
+/* design the thumbnails */
 .WorkExperienceThumbnailContainer, 
 .SkillsThumbnailContainer, 
 .ProjectsThumbnailContainer{
@@ -53,6 +57,7 @@
     position: relative;
     z-index: 1;
 }
+/* animate thumbnails when hovering */
 .WorkExperienceThumbnailContainer:hover, 
 .SkillsThumbnailContainer:hover, 
 .ProjectsThumbnailContainer:hover{
@@ -67,12 +72,14 @@
     box-shadow: none;
     transition: transform 0.05s ease, box-shadow 0s ease;
 }
+/* title for the thumbnails */
 #WorkExperienceText, #SkillsText, #ProjectText {
     margin-top: 0px;
     border-bottom: solid;
     border-bottom-width: 3px;
     border-color: white;
 }
+/* images for the thumbnails */
 .ImageContainer {
     display: flex;
     flex-direction: row;
@@ -80,17 +87,20 @@
     align-items: center;
     justify-content: center;
 }
+/* size of images */
 .CompanyLogo {
     width: 100px;
     height: 100px;
     border-radius: 15px;
     margin: 0px 5px 0px 5px;
 }
+/* hide the content when switching to another page */
 .MainContent.hide {
     opacity: 0;
     display: none;
     transition: opacity 0.5s ease-out;
 }
+/* click to see more text */
 #ManyMore {
     margin-top: 0px;
     font-size: 18px;
